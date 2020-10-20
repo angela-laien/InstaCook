@@ -4,6 +4,7 @@ module.exports = {
     addUser,
     findUserBy,
     findUserById,
+    
     getRecipes,
     addRecipe,
     getRecipeById,
