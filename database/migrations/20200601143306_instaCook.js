@@ -50,7 +50,7 @@ exports.up = function(knex) {
             .integer('number', 255)
             .notNullable();
           steps
-            .text('Instruction')
+            .text('instruction')
             .notNullable();
         })
 
